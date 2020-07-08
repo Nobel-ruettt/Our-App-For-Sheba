@@ -6,11 +6,11 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './shared/navbar/navbar.component';
-import { FooterComponent } from './shared/footer/footer.component';
+import { NavbarComponent } from './examplecomponents/shared/navbar/navbar.component';
+import { FooterComponent } from './examplecomponents/shared/footer/footer.component';
 
-import { ComponentsModule } from './components/components.module';
-import { ExamplesModule } from './examples/examples.module';
+import { ComponentsModule } from './examplecomponents/components/components.module';
+import { ExamplesModule } from './examplecomponents/examples/examples.module';
 import { HomePageComponent } from './Home-Page/Home-Page.component';
 
 

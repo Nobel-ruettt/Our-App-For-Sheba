@@ -9,6 +9,7 @@ export class HomePageComponent implements OnInit {
   focus: any;
   focus1: any;
   constructor() { }
+  test : Date = new Date();
 
   ngOnInit() {
   }
